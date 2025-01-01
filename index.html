@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="w-full h-[100dvh]">
+    <div id="home" class="w-full h-full bg-fundo3 bg-cover bg-center overflow-hidden">
+        <header class="w-full h-[70px] bg-zinc-800/90 flex justify-between p-2 items-center">
+
+            <h3 class="font-semibold border-b text-yellow-400">AG CONSTRUÇÕES</h3>
+            <ul class="text-white font-extralight">
+                <a href="index.html" class="pr-2 transition-[1s] hover:text-yellow-400 hover:border-b">HOME</a>
+                <a href="#sobre" class="pr-2 transition-[1s] hover:text-yellow-400 hover:border-b">SOBRE</a>
+                <a href="#servicos" class="pr-2 transition-[1s] hover:text-yellow-400 hover:border-b">SERVIÇOS</a>
+            </ul>
+        </header>
+
+        <main data-aos="fade-up-left" data-aos-easing="linear" data-aos-duration="1000" class="w-full h-[400px]">
+            <div id="desc" class=" flex p-4 w-[700px] h-[400px] shadow-2xl mx-auto mt-9 rounded-2xl">
+                <div id="txt" class="flex p-4 mr-[-43px] items-center w-[350px] h-full bg-zinc-800/90 rounded-xl">
+                    <p class="text-white text-2xl font-light">Transformando ideias em <span class="text-yellow-400 font-semibold">estruturas sólidas</span> </p>
+                </div>
+
+                <div id="txt" class="flex ml-10 pl-20 items-center w-[350px] h-full bg-white/90 rounded-xl">
+                    <div id="inputs">
+                        <input id="nome" class="p-1 rounded-lg" type="text" placeholder="digite seu nome">
+                        <input class="p-1 rounded-lg mt-2" type="email" placeholder="teste@gmail.com">
+
+                        <button class="bg-yellow-400 text-white font-extralight p-2 mt-2 rounded-full" onclick="exibirNome()">Fazer Orçamento</button>
+                    </div>
+                </div>
+                
+            </div>
+        </main>
+    </div><!--Fim Seção Home-->
+
+
+         <div id="sobre" class="flex justify-center w-full h-full bg-black/90">
+
+            <div id="srvs" class="flex mx-auto mt-40 w-[700px] h-[400px]">
+                <div id="pintura" data-aos="fade-right" data-aos-duration="2000" class="hover:bg-black transition-[1s] hover:translate-y-1 w-[200px] h-[200px] shadow-2xl bg-neutral-500 rounded-2xl">
+                      
+                    <div id="icon" class="w-full mx-auto text-center text-2xl">
+                         <i class="fa-solid fa-paint-roller font-extralight text-yellow-500 text-center"></i>
+                    </div><!--Fim da Seção Icon-->
+        
+                    <div id="text" class="">
+                        <h4 class="text-white font-extrabold ml-3">Dê vida aos seus espaços!</h4>
+                        <p class="text-white font-extralight mt-1 mx-auto ml-3">Serviços de pintura com qualidade, estilo e acabamento impecável.</p>
+                    </div>
+        
+                    </div><!--Fim da Seção Pintura-->
+                   
+                <div id="construcao" data-aos="fade-right" data-aos-duration="2300" class="hover:bg-black transition-[1s] hover:translate-y-1 w-[200px] h-[200px] ml-2 shadow-2xl bg-neutral-500 rounded-2xl">
+        
+                    <div id="icon" class="w-full mx-auto text-center text-2xl">
+                        <i class="fa-solid fa-hammer font-extralight text-yellow-500 text-center"></i>
+                    </div>
+        
+                    <div id="text" class="">
+                        <h4 class="text-white font-extrabold ml-3">Construa o lar dos seus sonhos!</h4>
+                        <p class="text-white font-extralight mt-1 mx-auto ml-3">Serviços de construção com qualidade, segurança e atenção aos detalhes.</p>
+                    </div>
+        
+                </div><!--FIm da Seção Construção-->
+        
+                 <div id="rate" data-aos="fade-right" data-aos-duration="2500" class="hover:bg-black transition-[1s] hover:translate-y-1 w-[200px] h-[200px] ml-2 shadow-2xl bg-neutral-500 rounded-2xl">
+        
+                    <div id="icon" class="font-extralight text-yellow-500 text-center text-2xl">
+                         <i class="fa-solid fa-pen-ruler"></i>
+                     </div>
+        
+                    <div id="text" class="">
+                         <h4 class="text-white font-extrabold ml-3">Projetos Sob Medida:</h4>
+                         <p class="text-white font-extralight mt-1 mx-auto ml-3">Projetos de reforma e construção criados para atender às suas necessidades </p>
+                     </div>
+        
+                </div><!--Fim da Seção Rate-->
+        
+                <div id="time" data-aos="fade-right" data-aos-duration="2700" class="hover:bg-black transition-[1s] hover:translate-y-1 w-[200px] h-[200px] ml-2 shadow-2xl bg-neutral-500 rounded-2xl">
+        
+                    <div id="icon" class="transition-[1s] hover:translate-y-1 font-extralight text-yellow-500 text-center text-2xl">
+                        <i class="fa-solid fa-stopwatch"></i>
+                    </div>
+        
+                    <div id="text" class="">
+                        <h4 class="text-white font-extrabold ml-3">Seu projeto entregue no prazo!</h4>
+                        <p class="text-white font-extralight mt-1 mx-auto ml-3">Compromisso e eficiência para garantir a realização dos seus sonhos sem atrasos.</p>
+                     </div>
+        
+                 </div>
+         
+             </div><!--Fim seção srvs-->
+        </div>  <!--Fim Seção Sobre-->
+
+        <div id="servicos" class="flex justify-center items-center w-full h-full bg-white">
+            <div id="srvss" class="flex w-[1200px] h-[550px] mx-auto mt-10">
+
+                <div id="house" data-aos="fade-up" data-aos-duration="2000" class="w-[400px] h-[500px] shadow-2xl rounded-2xl">
+                    <div id="img">
+                        <img src="assets/casa.jpg" alt="" class="w-[400px] h-[300px] rounded-lg">
+                    </div>
+
+                    <div id="title" class="">
+                        <h4 class="font-bold text-3xl text-center text-orange-400">Construção</h4>
+                    </div>
+
+                    <div id="desc" class="w-[330px] mx-auto mt-4">
+                        <p class="font-extralight">Cuidamos de cada etapa, criando um espaço que reflete seus sonhos e necessidades.</p>
+                    </div>
+
+                    <div id="btn" class="flex justify-center items-center mt-7">
+                        <button class="bg-orange-500 text-white font-extralight p-4 rounded-3xl">Faça Um Orçamento</button>
+                    </div>
+                   
+                 </div><!--Fim da Seção House-->
+
+                    
+                 <div id="reforma" data-aos="fade-down" data-aos-duration="2200" class="w-[400px] ml-2 h-[500px] shadow-2xl rounded-2xl">
+                    <div id="img">
+                        <img src="assets/pintura.jpg" alt="" class="w-[400px] h-[300px] rounded-lg">
+                    </div>
+
+                    <div id="title" class="">
+                        <h4 class="font-bold text-3xl text-center text-orange-400">Reforma</h4>
+                    </div>
+
+                    <div id="desc" class="w-[330px] mx-auto mt-4">
+                        <p class="font-extralight">Do planejamento à execução, entregamos ambientes renovados e funcionais.</p>
+                    </div>
+
+                    <div id="btn" class="flex justify-center items-center mt-7">
+                        <button onclick="abrirPagina()" class="bg-orange-500 text-white font-extralight p-4 rounded-3xl">Faça Um Orçamento</button>
+                    </div>
+                   
+                 </div><!--Fim da Seção Reforma-->
+
+                 <div id="eletrica" data-aos="fade-right" data-aos-duration="2300" class="w-[400px] ml-2 h-[500px] shadow-2xl rounded-2xl">
+                    <div id="img">
+                        <img src="assets/eletricista.jpg" alt="" class=" w-[400px] h-[300px] rounded-lg">
+                    </div>
+
+                    <div id="title" class="">
+                        <h4 class="font-bold text-3xl text-center text-orange-400">Eletrica</h4>
+                    </div>
+
+                    <div id="desc" class="w-[330px] mx-auto mt-4">
+                        <p class="font-extralight">Instalações e reparos elétricos feitos com segurança, eficiência e atenção aos detalhes.</p>
+                    </div>
+
+                    <div id="btn" class="flex justify-center items-center mt-7">
+                        <button onclick="abrirPagina()" class="bg-orange-500 text-white font-extralight p-4 rounded-3xl">Faça Um Orçamento</button>
+                    </div>
+                   
+                 </div>
+
+                </div><!--Fim da Seçãop srvss-->
+
+            </div><!--Fim da Seção Serviços-->
+        </div>
+
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="script.js"></script>
+        <script>
+            AOS.init();
+          </script>
+</body>
+</html>
